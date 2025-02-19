@@ -11,10 +11,10 @@ def beolvas():
             szotar = {}
             szam = 0
             for _ in range(5):
-                if szam == 2 or szam == 3:
-                    szotar[filters[szam]] = float(adatok[szam])
-                else:
-                    szotar[filters[szam]] = adatok[szam]
+                #if szam == 2 or szam == 3:
+                #    szotar[filters[szam]] = float(adatok[szam])
+                #else:
+                szotar[filters[szam]] = adatok[szam]
                 szam = szam + 1
             sneakers.append(szotar)
     return sneakers
